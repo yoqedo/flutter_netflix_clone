@@ -1,1 +1,1 @@
-![Image of Project](assets/images/joker.jpg)
+![Image of Project](netflix/assets/images/joker.jpg)
