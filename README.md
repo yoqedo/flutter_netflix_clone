@@ -1,3 +1,3 @@
 # Netflix Clone
 
-![Image of Project](netflix/assets/images/joker.jpg)
+![Image of Project](path/here.png)
