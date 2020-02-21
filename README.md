@@ -1,3 +1,3 @@
 # Netflix Clone
 
-![Image of Project](path/here.png)
+![Image of Project](/images/screen1.png)
