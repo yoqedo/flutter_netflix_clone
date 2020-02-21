@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:netflix/model/movie_model.dart';
-import 'package:netflix/screens/moviepresent_screen.dart';
+import 'package:netflix/screens/movie_screen.dart';
+import 'package:netflix/model/moviepr_model.dart';
 
 class MoviesSelector extends StatefulWidget {
   @override
@@ -37,8 +38,12 @@ class _MoviesSelectorState extends State<MoviesSelector> {
         children: <Widget>[
           GestureDetector(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MoviePresent()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => MovieScreen(movie: movie[index]),
+                ),
+              );
             },
             child: Container(
               margin: EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),

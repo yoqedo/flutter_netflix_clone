@@ -50,6 +50,9 @@ flutter:
    - assets/images/countdown.jpg
    - assets/images/birds.jpg
    - assets/images/joker.jpg
+   - assets/images/spiderman1.jpeg
+   - assets/images/spiderman2.jpeg
+   - assets/images/spiderman3.jpeg
  
  
   # An image asset can refer to one or more resolution-specific "variants", see

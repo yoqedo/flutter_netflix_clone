@@ -1,4 +1,4 @@
-class MovieImg{
+class MovieImg {
   String imageUrl;
   String imageText;
 
@@ -6,15 +6,14 @@ class MovieImg{
     this.imageUrl,
     this.imageText,
   });
-
 }
 
-final List <MovieImg> movies = [
+final List<MovieImg> movies = [
   MovieImg(
     imageUrl: 'assets/images/spiderman.jpg',
     imageText: 'SPIDERMAN',
   ),
-   MovieImg(
+  MovieImg(
     imageUrl: 'assets/images/countdown.jpg',
     imageText: 'Countdown, time is Coming',
   ),
@@ -22,9 +21,8 @@ final List <MovieImg> movies = [
     imageUrl: 'assets/images/birds.jpg',
     imageText: 'Birds of Pray: The fantaboulus Emancipation of Harley Quinn',
   ),
-    MovieImg(
+  MovieImg(
     imageUrl: 'assets/images/joker.jpg',
     imageText: 'Joker, the real Story',
   ),
-  
 ];
